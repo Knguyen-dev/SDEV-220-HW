@@ -4,7 +4,7 @@ def test_sum():
     assert sum([1,2,3]) == 6
 
 def test_sum_tuple():
-	assert sum((tuple[1, 2, 2]) == 6)
+	assert sum(tuple([1, 2, 2])) == 6
 
 if __name__ == "__main__":
     test_sum()
